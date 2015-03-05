@@ -8,7 +8,7 @@ function Grid(maxX,maxY,boxSize){
 		t.box.push(t.appendChild(document.createElement('tr')).childNodes);
 		for(j=0;j<maxX;j++){
 			b = t.lastChild.appendChild(document.createElement('td'));
-			b.setAttribute('style','vertical-align:top;height:'+boxSize+'px;width:'+boxSize+'px;background-color:rgb(108,145,147);background-image:url("'+imageLocation+'first.png");background-position:-64px 0px;');
+			b.setAttribute('style','vertical-align:top;height:'+boxSize+'px;width:'+boxSize+'px;background-color:rgb(108,145,147);background-image:url("https://s1.postimg.org/jp528hgun/first.png");background-position:-64px 0px;');
 			b.grid = t;
 			b.x = j;
 			b.y = maxY - (i+1);
